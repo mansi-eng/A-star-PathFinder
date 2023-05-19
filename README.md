@@ -26,3 +26,4 @@ The backend of the project is implemented using Java with Spring Boot. It serves
 ## Screenshot
 
 ![Output](./images/Output.png)
+![Output](./images/Output2.png)
