@@ -1,0 +1,92 @@
+.container{
+   display:flex;
+   flex-direction:column;
+   width:800px;
+   margin: auto;
+}
+
+.key{
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  padding: 20px 0px;
+  background: #ddd;
+  outline: orangered;
+  margin: 0px;
+  flex: 1;
+  min-width: 50px;
+
+}
+
+.key:active{
+  background: #ccc;
+}
+
+.key-start {
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  padding: 20px 0px;
+  background: rgb(16, 179, 30);
+  outline: rgb(16, 179, 30);
+  margin: 0px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.key-stop {
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  padding: 20px 0px;
+  background: rgb(236, 34, 34);
+  outline: orangered;
+  margin: 0px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.key-visited {
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  padding: 20px 0px;
+  background: rgb(51, 153, 255);
+  outline: rgb(51, 153, 255);
+  margin: 0px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.key-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-header{
+  text-align: center;
+}
+
+.key-final-path {
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  padding: 20px 0px;
+  background: rgb(255, 224, 51);
+  outline: rgb(255, 224, 51);
+  margin: 0px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.key-path{
+
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 15px 0px;
+  background:dodgerblue;
+  outline: orangered;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex: 1;
+  min-width: 80px;
+}
+.key-path:active{
+  background: #ccc;
+}
